@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ingresar</title>
+	<link rel="stylesheet" type="style.css" href="style.css">
+</head>
+<body>
+	<div class="titulo">
+		<h2>Mi sitio</h2>
+	</div>
+	<div class="lateral">
+
+		<div class="caja">
+			<menu type="toolbar">
+				<ul>
+					<li><input type="submit" name="login" value="portada"></li>
+					<li><input type="submit" name="login" value="Ingresar"></li>
+				</ul>
+			</menu>
+		</div>
+
+		<div class="caja">
+			<fieldset>
+				<legend>atencion</legend>
+				<div>
+					<label>Texto</label>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+
+	<div class="principal">
+		<form id="app-login" action="process.php">
+			<fieldset>
+				<legend>Datos de ingreso</legend>
+				<div>
+					<label for="user-name">Usuario</label>
+					<input  name="user-name" type="email" placeholder="Your username is your">
+				</div>
+				<div>
+					<label for="password">Contraseña:</label>
+					<input name="password" type="password" placeholder="6 digits, a combination">
+				</div>
+				<div>
+					<input type="submit" name="login" value="login">
+				</div>
+
+			</fieldset>
+		</form>
+	</div>
+
+
+<div class="footer">
+	<footer>Espinola</footer>
+</div>
+</body>
+</html>
